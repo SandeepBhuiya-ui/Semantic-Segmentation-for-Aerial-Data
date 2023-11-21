@@ -34,6 +34,7 @@ In summary, semantic segmentation for aerial data is a crucial task with a wide 
 
 # Using Multi U-Net 
 Using a Multi U-Net architecture for semantic segmentation of aerial data involves employing a network that can capture hierarchical features at multiple scales, enabling the model to understand both fine-grained details and broader contextual information. The Multi U-Net architecture typically consists of multiple U-Net modules connected in a cascaded or parallel fashion. Here's a general guide on how you can approach this:
+![image](https://github.com/SandeepBhuiya-ui/Semantic-Segmentation-for-Aerial-Data/assets/97376097/dab3b56c-6d0b-4b5b-bdfe-9d1191fd3dac)
 
 ### 1. **Understand the Multi U-Net Architecture:**
    - **Encoder-Decoder Structure:** Each U-Net module consists of an encoder for feature extraction and a decoder for upsampling and segmentation.
